@@ -1,0 +1,74 @@
+/* Global CSS */
+h1{
+    font-size: 60px;
+}
+h2{
+     font-size: 50px;
+}
+h3{
+    font-size: 35px;
+}
+p{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(39, 39, 39, 0.60);
+}
+h1, h2, h3{
+    color: #272727;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 30px;
+}
+span{
+    color: #E55473;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header CSS */
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 50px 100px 0px 100px;
+    margin-bottom: 50px;
+}
+.header-image{
+    margin: 0 0 0 auto;
+}
+.header-image img{
+    width: 400px;
+}
+.content{
+    width: 600px;
+}
+
+/* Featured Css */
+.features{
+    text-align: center;
+    margin: 100px auto;
+}
+.features h3{
+    margin: 0;
+}
+.features p{
+    width: 600px;
+    margin: 24px auto;
+}
+.featured{
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    gap: 24px;
+}
+.featured p{
+    width: auto;
+}
